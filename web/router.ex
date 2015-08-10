@@ -18,7 +18,6 @@ defmodule Reminders.Router do
 
     get "/", PageController, :index
 
-    # get "/reminders", RemindersController, :index
     resources "reminders", RemindersController, except: [:delete]
   end
 

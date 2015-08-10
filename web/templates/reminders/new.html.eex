@@ -1,6 +1,5 @@
 <div class="jumbotron">
-
     <div class="headline">Set Quick Reminders Quickly</div>
-    <%= link "Create Reminder", to: reminders_path(@conn, :new), class: "button" %>
+    <a href="#" class="button">Create a reminder</a>
 </div>
 
